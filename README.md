@@ -1,1 +1,1 @@
-# -snegi8958.github.io
+# snegi8958.github.io
