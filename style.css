@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Poppins:wght@300&family=Staatliches&display=swap');
+
+* {
+	margin: 0px;
+}
+
+header {
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+nav {
+	color: #fff;
+	/* background-color: grey; */
+	/* padding: 20px; */
+}
+
+nav ul {
+	list-style-type: none;
+	/* font-size: 15pt; */
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 14pt;
+	padding: 10px;
+	font-family: 'Poppins', sans-serif;
+	/* font-family: 'Staatliches', cursive; */
+	transition: all 0.7s;
+}
+
+nav li:hover {
+	background-color: lightblue;
+	color: black;
+	border-radius: 10px;
+	transition: all 0.4s;
+	/* transition: all 0.7s; */
+	font-size: 10pt;
+	/* font-size: 16pt; */
+	font-weight: bold;
+}
+
+
+/* main{
+        background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+        height: 100vh;
+    }
+
+.card{
+
+        height: 500px;
+        width: 500px;
+        background-color: rgb(40, 247, 178);
+} */
+
+
+
+
+
+
+
+
+/* CARD 1 CSS */
+
+main {
+	padding: 10px;
+	height: 120vh;
+	/* background-color: #000; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.card1 {
+	height: 550px;
+	width: 700px;
+	box-shadow: 10px 10px 10px #000;
+	background-color: #fff;
+	border-radius: 50px;
+	text-align: center;
+}
+
+.card1 .header1 {
+	background-color: lightblue;
+	padding: 50px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+.header1 p {
+	font-size: 15pt;
+	font-weight: bold;
+	/* padding: 5px; */
+	text-transform: capitalize;
+}
+
+/* CARD BODY CSS */
+.card1 .body1 {
+	background-color: lightpink;
+	padding: 40px;
+	text-transform: capitalize;
+	display: flex;
+}
+
+#A {
+	text-align: left;
+	font-size: 14pt;
+	/* background-color: #a18cd1; */
+
+}
+
+#A span {
+	text-decoration: underline;
+	text-align: left;
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+#B {
+	/* width: 1000px; */
+	/* background-color: #bbb5c9; */
+	/* list-style-type: none; */
+	text-align: left;
+	font-size: 14pt;
+}
+
+#B span {
+	text-decoration: underline;
+	/* text-align: left; */
+	font-weight: bold;
+	font-size: 15pt;
+	/* background-color: #a18cd1; */
+}
+
+
+
+/* CARD BODY CSS ENDED */
+
+.card1 .pic {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	object-fit: cover;
+	margin-top: -110px;
+	position: absolute;
+	margin-left: -40px;
+	box-shadow: 4px 10px 12px #000;
+}
+
+.footer1 .icon li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.icon li {
+	padding: 10px;
+	justify-content: space-between;
+	font-size: 17pt;
+
+}
+
+.footer1 .btn li{
+	justify-content: fi;
+	list-style-type: none;
+	display: inline-block;
+	font-size: 15pt;
+	padding: 12px;
+	/* font-family: 'Staatliches', cursive; */
+	transition: all 0.7s;
+	background-color:white;
+	justify-content: space-between;
+	text-transform: capitalize;
+}
+
+.btn li:hover{
+	padding: 10px;
+	background-color: lightblue;
+	color: black;
+	border-radius: 10px;
+	transition: all 0.4s;
+	/* transition: all 0.7s; */
+	font-size: 12pt;
+	font-weight: bold;
+}
